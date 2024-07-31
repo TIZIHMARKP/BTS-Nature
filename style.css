@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 3rem;
+    font-weight: bolder;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar-brand:hover{
+    color: black;
+}
+
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: sans-serif;
+
+}
+.nav-link:hover{
+    color: black;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid rgb(248, 26, 92);
+    margin-right: -35px;
+    font-family: sans-serif;
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.main{
+    background: url(./images/Dark\ fruits.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50%;
+}
+ 
+.main h1{
+    font-size: 5rem;
+    font-weight: bolder;
+    color: white;
+    font-family:  sans-serif;
+     
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+   
+}
+
+.btn1:hover{
+    background-color:rgb(193, 16, 69);
+    transition: 0.5s;
+}
+h1{
+    font-weight: 700;
+}
+
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    transition: 0.5s;
+}
+
+/* Apple Section styling */
+
+.apple{
+    background: linear-gradient(rgba(0,0,0,0.2) ,rgba(0,0,0,0.2)),url(./images/fruits\ on\ dark\ background.jpg)no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+.apple h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.news{
+    background-color: black;
+    color: white;
+}
+
+.btn2{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.news::placeholder{
+    color: white;
+}
+.new p{
+    margin: 0;
+}
+
+
+/* .fab{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+
+} */
